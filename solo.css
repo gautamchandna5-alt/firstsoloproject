@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family: "Boogaloo";
+    font-weight: 400;
+}
+#upperbody{
+    background-image: url(farms.webp);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+#state-name{
+    margin: 0;
+    background-color: #386641;
+    padding: 5px 10px;
+}
+#intro{
+    margin: 10px;
+    background-color: #68994e;
+    padding: 5px 10px;
+}
+#activities{
+    font-size: 30px;
+    width: 600px;
+    margin: 30px auto;
+}
+.images{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.activities{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 130px;
+}
+#alignment{
+    display:flex;
+    justify-content: space-around;
+}
+.spacing{
+    margin: 10px 0 4px 0; 
+}
+#coverphoto{
+    height: 220px;
+    width: 200px;
+    margin: 0 30px 0 0;
+}
+#guidecard{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 100px auto;
+    background-color: #a68a64;
+    padding: 30px 30px;
+    border-bottom: 5px solid #7f5539;
+}
